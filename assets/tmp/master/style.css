@@ -1,0 +1,23 @@
+.button-blue {
+box-sizing: border-box;
+position: relative;
+transition-property: background-color,border,box-shadow;
+transition-duration: .25s;
+transition-timing-function: ease;
+color: #333;
+border: 1px solid #fcc521;
+background-color: #ffdd2d;
+min-height: 56px;
+text-transform: unset;
+border-radius: 6px;
+padding-right: 40px;
+padding-left: 40px;
+}
+.button-blue:hover {
+color: #333;
+border-color: #fcc521;
+background-color: #fcc521;
+}
+.phone-go {
+background-color: #ffdd2d;
+}
